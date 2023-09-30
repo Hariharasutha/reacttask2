@@ -1,0 +1,28 @@
+*{
+   margin: 0;
+   padding: 0;
+ }.card{
+   border: 1px solid none;
+   margin: 20px;
+   width: auto;
+   height: auto;
+   padding: 20px;
+   box-shadow: 2px 2px 2px 2px black;
+   text-align: justify;
+ }
+ .card .item{
+ 
+ }
+ .card .item span {
+   padding-left: 20px;
+ }
+ .card .item1 span {
+   padding-left: 20px;
+ }
+ .card .item1 {
+  padding-left: 50px;
+ }
+ .container .card{
+   display: grid;
+       grid-template-columns: repeat(2,1fr);
+ }
